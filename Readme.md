@@ -1,7 +1,4 @@
-Ah je vois ce que tu veux dire, un seul bloc markdown complet, propre, sans sortir du code markdown. Voilà, tout dans un seul bloc markdown, prêt à copier-coller intégralement dans ton README.md :
-
-````markdown
-# TP Docker MySQL
+TP Docker MySQL
 
 ## Structure du projet
 
@@ -18,7 +15,7 @@ Ah je vois ce que tu veux dire, un seul bloc markdown complet, propre, sans sort
    docker build -t mysql-lab:1.0 .
 ````
 
-2. Lancer le conteneur avec les variables d’environnement :
+Lancer le conteneur avec les variables d’environnement :
 
    ```bash
    docker run -d --name mysql-lab-container --env-file .env -p 3306:3306 mysql-lab:1.0
